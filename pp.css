@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 10000px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.main{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    background-color: #EF5C42;
+    color: white;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+
+}
+.logo{
+    font-style:italic;
+    font-size: 20px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu a:hover {
+  
+    color: black;
+}
+
+.right-icon{
+    display: flex;
+    gap: 30px;
+}
+.right-icon :hover{
+    color: black;
+}
+
+.banner {
+    background-color: #333;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    max-width: 50%;
+    margin: 20px auto;
+
+}
+
+
+.menu1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: #ededed;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu-item span {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+.write{
+    
+    font-size: 25px;
+}
+.bar{
+    color:black; 
+    width: 15px;
+    padding: 10px;
+}
+.artical{
+    display: flex;
+    justify-content: space-between;
+}
+.check{
+    color: black;
+    margin: 10px;
+}
+.article-span{
+    display: flex;
+}
+.hero{
+    color: #333;
+}
+
+.class{
+    font-size: 25px;
+}
+.bar-1{
+    color:black; 
+    width: 15px;
+    padding: 10px;
+}
+.pumpkin{
+    display: flex;
+    justify-content: space-between;
+}
+.check-1{
+    color: black;
+    margin: 10px;
+}
+.article-span1{
+    display: flex;
+}
+.hero-1{
+    color: #333;
+}
+
+.class-1{
+    font-size: 25px;
+}
+
+.let{
+    font-size:25px;
+}
+
+.knitting{
+    display: flex;
+    justify-content: space-between;
+}
+.bar-2{
+    color:black; 
+    width: 15px;
+    padding: 10px;
+}
+.check-2{
+    color: black;
+    margin: 10px;
+}
+.article-span2{
+    display: flex;
+}
+.hero-2{
+    color: #333;
+}
+.clothes{
+    font-size: 25px;
+}
+
+.crochething{
+    display: flex;
+    justify-content: space-between;
+}
+.bar-3{
+    color:black; 
+    width: 15px;
+    padding: 10px;
+}
+.check-3{
+    color: black;
+    margin: 10px;
+}
+.article-span3{
+    display: flex;
+}
+.hero-3{
+    color: #333;
+}
+
+.lower-header{
+        background-color: #add8e6;
+        padding: 20px;
+        margin-bottom: 30px;
+        display: flex;
+        gap: 200px;
+        text-align: center;
+    }
+
+    .lower-header p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-align: center;
+        
+    }
+
+    .lower-header form {
+        display: inline-block;
+    }
+
+    .lower-header input[type="email"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .lower-header button {
+        padding: 10px 20px;
+        background-color: #ff5722;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    
+    .branding h2 {
+        color: #ff5722;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .branding p {
+        margin-bottom: 20px;
+    }
+    
+    .social-icon {
+        width: 40px;
+        margin: 0 5px;
+        display: flex;
+        gap: 20px;
+        size: 20%;
+    }
+    
+    .app-download a img {
+         width: 200px; 
+        margin: 10px 5px;
+    }
+    
+    .categories, .projects, .streaming, .customer-service {
+        margin: 10px;
+    }
+    
+    .categories h3, .projects h3, .streaming h3, .customer-service h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .categories ul, .projects ul, .streaming ul, .customer-service ul {
+        list-style-type: none;
+    }
+    
+    .categories li, .projects li, .streaming li, .customer-service li {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+   
