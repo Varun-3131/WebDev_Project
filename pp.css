@@ -6,8 +6,8 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    
-    
+
+
 }
 .main{
     display: flex;
@@ -189,9 +189,9 @@ body{
         display: flex;
         gap: 200px;
         text-align: center;
-    }
+}
 
-    .lower-header p {
+.lower-header p {
         font-size: 16px;
         margin-bottom: 10px;
         text-align: center;
