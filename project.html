@@ -8,7 +8,47 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <style>
+        /* Parent container styling */
+        .image1 {
+            position: relative;
+            width: 100%;
+            height: 650px;
+            overflow: hidden; /* Ensures content stays within bounds */
+        }
+
+        /* Image styling with blackish tone */
+        .image1 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures image fits nicely */
+            filter: brightness(50%); /* Blackish tone */
+        }
+
+        /* Overlay text container */
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            z-index: 2; /* Ensures text appears above the image */
+        }
+
+        /* Heading and paragraph styling */
+        .overlay-text h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .overlay-text p {
+            font-size: 18px;
+            line-height: 1.5;
+            max-width: 800px; /* Limits paragraph width for better readability */
+        }
+    </style>
 </head>
 <body>
     <div class="main">
@@ -29,17 +69,16 @@
     </div>
     <div class="banner">
        <h3>Craftsy members enjoy unlimited access to exclusive classes,<br> videos, and live stream tutorials — all available 24/7.</h3> 
-    </div> 
+    </div>
 
     <section>
         <div class="image1">
-                <img src="handcraft.jpg" alt="handcraft" width="1260px" height="350px"> 
-                 <!-- <div class="upper-text">
-                    <h1>Don't just dream it. Make it.</h1>
-                    <p>Craftsy is your source for inspiration where you can explore videos and resources to spark your creativity and your skills with access to over 2,000 easy-to-follow classes across more than 20 categories taught by industry-leading experts.</p>
-            </div>  -->
+            <img src="handcraft.jpg" alt="handcraft">
+            <div class="overlay-text">
+                <h1>Don't just dream it. Make it.</h1>
+                <p>Craftsy is your source for inspiration where you can explore videos and resources to spark your creativity and your skills with access to over 2,000 easy-to-follow classes across more than 20 categories taught by industry-leading experts.</p>
+            </div>
         </div>
-        
     </section>
 
     <nav class="menu1">
