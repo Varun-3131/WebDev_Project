@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background_Login.jpg');
+    background-size: contain;
+}
+
+.popup-container {
+    /*background-image: url('pumpkin_Login.jpg'); !* Placeholder for background image *!*/
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.popup-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.free-badge {
+    background-color: #ff6347; /* Red-orange color */
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.popup-title {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.popup-subtitle {
+    font-size: 28px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.popup-description {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.popup-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.download-btn {
+    background-color: #ff4500; /* Bright orange */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.download-btn:hover {
+    background-color: #e63946; /* Darker red */
+}
